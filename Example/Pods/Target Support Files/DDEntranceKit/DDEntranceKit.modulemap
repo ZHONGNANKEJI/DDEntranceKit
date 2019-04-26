@@ -1,0 +1,6 @@
+framework module DDEntranceKit {
+  umbrella header "DDEntranceKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

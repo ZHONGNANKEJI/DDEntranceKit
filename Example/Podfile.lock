@@ -1,0 +1,16 @@
+PODS:
+  - DDEntranceKit (0.1.0)
+
+DEPENDENCIES:
+  - DDEntranceKit (from `../`)
+
+EXTERNAL SOURCES:
+  DDEntranceKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDEntranceKit: faa66927c62e5922c4e45572585aeb12a46d1187
+
+PODFILE CHECKSUM: b1480b83c6b8c7634cb49a0c76d62756b00b9113
+
+COCOAPODS: 1.6.1

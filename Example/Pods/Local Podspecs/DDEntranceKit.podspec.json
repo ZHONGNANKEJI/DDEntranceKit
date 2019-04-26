@@ -1,0 +1,22 @@
+{
+  "name": "DDEntranceKit",
+  "version": "0.1.0",
+  "summary": "A short description of DDEntranceKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Goallying/DDEntranceKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Goallying": "szzhongyu2018@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Goallying/DDEntranceKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DDEntranceKit/Classes/**/*"
+}
