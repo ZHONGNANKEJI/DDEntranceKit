@@ -463,6 +463,37 @@
 			};
 			name = Release;
 		};
+		3616BEA278558564867CB1FD68B854C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAE5F34E9DAAE04E842EC0AE41EC85F /* DDEntranceKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DDEntranceKit/DDEntranceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDEntranceKit/DDEntranceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DDEntranceKit/DDEntranceKit.modulemap";
+				PRODUCT_MODULE_NAME = DDEntranceKit;
+				PRODUCT_NAME = DDEntranceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -594,7 +625,7 @@
 			};
 			name = Debug;
 		};
-		A37DC89CB097A0B8CC04C5610799D585 /* Release */ = {
+		A43F0D8897CE19EFDB0F2D730E553206 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9AAE5F34E9DAAE04E842EC0AE41EC85F /* DDEntranceKit.xcconfig */;
 			buildSettings = {
@@ -610,7 +641,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DDEntranceKit/DDEntranceKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DDEntranceKit/DDEntranceKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DDEntranceKit/DDEntranceKit.modulemap";
 				PRODUCT_MODULE_NAME = DDEntranceKit;
@@ -619,11 +650,10 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		D4DBDEFA9C39535AC9C69D658091AE52 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -658,36 +688,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		E0164235413BCD4AE6AC292A4159133B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AAE5F34E9DAAE04E842EC0AE41EC85F /* DDEntranceKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DDEntranceKit/DDEntranceKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DDEntranceKit/DDEntranceKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DDEntranceKit/DDEntranceKit.modulemap";
-				PRODUCT_MODULE_NAME = DDEntranceKit;
-				PRODUCT_NAME = DDEntranceKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		EB6C685A53E98558AD052A1E0FA44189 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -728,8 +728,8 @@
 		34C4A2810F904DA1EEBB01FFC5C9D9EC /* Build configuration list for PBXNativeTarget "DDEntranceKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0164235413BCD4AE6AC292A4159133B /* Debug */,
-				A37DC89CB097A0B8CC04C5610799D585 /* Release */,
+				A43F0D8897CE19EFDB0F2D730E553206 /* Debug */,
+				3616BEA278558564867CB1FD68B854C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
