@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UITextView+Additions.h"
 
 FOUNDATION_EXPORT double DDEntranceKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char DDEntranceKitVersionString[];
